@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+}
+
+header img {
+    padding-left: 10%;
+}
+
+nav {
+    padding-right: 10%;
+    width: 40%;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul li:last-child {
+    background-color: black;
+    width: 7em;
+    height: 2.5em;
+    border-radius: 2em;
+}
+
+#start {
+    color: white;
+}
+
+#hero {
+    background-color: #ffc017;
+    display: flex;
+}
+
+#hero div {
+    flex-basis: 50%;
+}
+
+#hero div:first-child {
+    padding-left: 10%;
+}
+
+h1 {
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-size: 8.5em;
+    margin-bottom: 0;
+}
+
+#hero h2 {
+    font-weight: 500;
+}
+
+#hero a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+
+#hero p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 14em;
+    height: 2.5em;
+    border-radius: 2em;
+    margin-top: 8%;
+}
+
+#trend {
+    display: flex;
+    margin-top: 2em;
+    margin-left: 7em;
+}
+
+#trend h2 {
+    margin-left: 0.5em;
+} 
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: baseline;
+}
+
+.article {
+    width: 26%;
+    display: flex;
+}
+
+.number {
+    margin: 0;
+    color: #E9E9E9;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-right: 0.7em;
+}
+
+.articleTitle {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.articleTitle h4 {
+    margin-left: 0.5em;
+}
+
+.articleTitle img {
+    height: 2em;
+}
+
+.article > div > h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.date {
+    display: flex;
+}
+
+.date p {
+    color: #73778F;
+    padding-right: 2%;
+}
+
+span {
+    color: #757575;
+}
+
+.circle {
+    border-radius: 10em;
+}
+
+.square {
+    border-radius: 0.2em;
+}
+
+#first {
+    border-bottom: 1px solid #E6E7E7;
+    padding-bottom: 2em;
+}
+
+#second {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.article2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+
+.article2 > div {
+    margin-right: 2em;
+}
+
+.article2 > div > h4 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+    margin-top: 0;
+}
+
+.article2 > div > p {
+    color: #73778F;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.date2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date2 div {
+    display: flex;
+}
+
+.date2 p {
+    margin-right: 0.4em;
+    color: #757575;
+}
+
+#container2 {
+    width: 50%;
+}
+
+#tag {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-top: 5em;
+}
+
+#tag h4 {
+    margin: 0;
+    margin-bottom: 0.6em;
+}
+
+#button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-bottom: 1px solid #E6E7E7;
+    padding-bottom: 2em;
+}
+
+#button button {
+    background-color: transparent;
+    border: 1px solid #E6E7E7;
+    color: #73778F;
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    height: 2.5em;
+    margin-top: 0.8em;
+    margin-right: 0.8em;
+}
+
+#link ul{
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0%;
+    align-content: space-between;
+    height: 3.3em;
+}
+
+#link li {
+    list-style: none;
+    margin-left: 1em;
+}
+
+#link a {
+    text-decoration: none;
+    color: #73778F;
+}
