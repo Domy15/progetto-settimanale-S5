@@ -156,7 +156,7 @@ h1 {
     padding-right: 2%;
 }
 
-span {
+#first span {
     color: #757575;
 }
 
@@ -262,10 +262,16 @@ span {
 
 #link li {
     list-style: none;
-    margin-left: 1em;
+    margin-right: 1.5em;
 }
 
 #link a {
     text-decoration: none;
     color: #73778F;
+}
+
+#second span {
+    background-color: #E6E7E7;
+    border-radius: 2em;
+    padding: 0.5em;
 }
