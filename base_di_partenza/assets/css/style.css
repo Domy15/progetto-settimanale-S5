@@ -59,6 +59,7 @@ header a {
 #hero {
     background-color: #ffc017;
     display: flex;
+    border-bottom: 1px solid black;
 }
 
 #heroDiv, #M {
@@ -311,15 +312,10 @@ h1 {
 
     #heroDiv {
         flex-basis: 60%;
-        position: relative;
     }
 
     #M {
         flex-basis: 40%;
-        position: absolute;
-        left: 60%;
-        top: 10%;
-        width: 20em;
     }
 
     .article {
@@ -366,5 +362,46 @@ h1 {
 
     .img {
         width: 20em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .li {
+        display: none;
+    }
+
+    #M{
+        display: none;
+    }
+
+    #heroDiv {
+        flex-basis: 100%;
+        height: 23em;
+    }
+
+    .article {
+        width: 80%;
+    }
+
+    #second {
+        margin: 0;
+        padding: 0;
+    }
+
+    #container2, #tag {
+        width: 100%;
+    }
+
+    #button {
+        width: 90%;
+    }
+
+    #tag {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .img {
+        width: 15em;
     }
 }
