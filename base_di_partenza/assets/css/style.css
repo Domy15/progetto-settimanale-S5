@@ -61,11 +61,11 @@ header a {
     display: flex;
 }
 
-#hero div {
+#heroDiv, #M {
     flex-basis: 50%;
 }
 
-#hero div:first-child {
+#heroDiv {
     padding-left: 10%;
 }
 
@@ -294,4 +294,77 @@ h1 {
     width: 7em;
     height: 2.5em;
     border-radius: 2em;
+}
+
+@media screen and (max-width: 768px){
+    nav {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 4.5em;
+    }
+
+    #hero h2 {
+        font-size: 1.2em;
+    }
+
+    #heroDiv {
+        flex-basis: 60%;
+        position: relative;
+    }
+
+    #M {
+        flex-basis: 40%;
+        position: absolute;
+        left: 60%;
+        top: 10%;
+        width: 20em;
+    }
+
+    .article {
+        width: 40%;
+        padding-bottom: 2em;
+    }
+
+    #trend {
+        margin-left: 4em;
+    }
+
+    #second {
+        flex-direction: column-reverse;
+        font-size: 0.8em;
+        margin-right: 6em;
+        margin-left: 6em;
+    }
+
+    #tag {
+        width: 80vw;
+    }
+
+    #tag h4{
+        position: static;
+        font-size: 1.5em;
+    }
+
+    #button {
+        width: 80vw;
+        position: static;
+    }
+
+    #link {
+        position: static;
+    }
+
+    #button button {
+        width: max-content;
+    }
+
+    #container2 {
+        width: 80vw;
+    }
+
+    .img {
+        width: 20em;
+    }
 }
